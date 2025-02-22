@@ -1,0 +1,27 @@
+method = both                 # [both | js | html] Method used to redirect user.
+output = rover                # [STRING] Output folder name. Uses relative path.
+json = false                  # [true | false] Output JSON data.
+output json = example.json    # [STRING] Output JSON file name.
+minify = false                # [true | false] Minify the HTML files.
+visualize = false             # [true | false] Create visualization table (rover.html).
+output visualize = rover.html # [STRING] Visualization output file.
+
+[redirects]
+
+youtube = https://youtube.com/
+[
+    title = YouTube Link
+    image = https://example.com/image.png
+    keywords = YouTube, video, sharing
+    description = [
+        Multi-line
+        string
+    ]
+]
+
+axorax = https://axorax.github.io
+
+discord = https://discord.com/app
+[
+    description = Redirect link for a messaging platform.
+]

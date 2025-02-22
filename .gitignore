@@ -1,0 +1,7 @@
+rover/
+*.html
+*.json
+dist/
+build/
+*.spec
+*.css
